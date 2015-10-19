@@ -1,0 +1,8 @@
+{
+    "type": "dashboard-page",
+    "config": {
+        "chrome": {
+            "title": "Dashboard"
+        }
+    }
+}

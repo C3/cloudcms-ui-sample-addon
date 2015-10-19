@@ -1,0 +1,27 @@
+{
+    "evaluator": "context-project",
+    "config": {
+        "context": {
+            "items": [{
+                "key": "dashboard/header",
+                "title": "Dashboard",
+                "order": 10000,
+                "header": true,
+                "iconClass": "fa fa-dashboard",
+                "allowAuthority": ["manager"],
+                "allowPermission": ["read"],
+                "rejectAuthority": [],
+                "rejectPermission": [],
+                "items": [{
+                    "key": "dashboard/page",
+                    "title": "Dashboard",
+                    "uri": "#/projects/{projectId}/dashboard",
+                    "iconClass": "fa fa-pencil",
+                    "allowPermission": [
+                        "manager"
+                    ]
+                }]
+            }]
+        }
+    }
+}
