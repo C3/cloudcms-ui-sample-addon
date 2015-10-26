@@ -4,8 +4,8 @@
         "context": {
             "items": [{
                 "key": "dashboard/header",
-                "title": "Dashboard",
-                "order": 10000,
+                "title": "Tableau Dashboards",
+                "order": 1,
                 "header": true,
                 "iconClass": "fa fa-dashboard",
                 "allowAuthority": ["manager"],
@@ -14,9 +14,17 @@
                 "rejectPermission": [],
                 "items": [{
                     "key": "dashboard/page",
-                    "title": "Dashboard",
+                    "title": "Analytics Summary",
                     "uri": "#/projects/{projectId}/dashboard",
-                    "iconClass": "fa fa-pencil",
+                    "iconClass": "fa fa-dashboard",
+                    "allowPermission": [
+                        "manager"
+                    ]
+                }, {
+                    "key": "dashboard/page",
+                    "title": "Query & Context Analytics",
+                    "uri": "#/projects/{projectId}/dashboard",
+                    "iconClass": "fa fa-dashboard",
                     "allowPermission": [
                         "manager"
                     ]

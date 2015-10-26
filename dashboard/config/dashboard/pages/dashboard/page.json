@@ -1,5 +1,5 @@
 {
-    "title": "Dashboard",
+    "title": "Testing 2",
     "uri": "/projects/{projectId}/dashboard",
     "extends": "project/_project",
     "template": "dashboard-template"
